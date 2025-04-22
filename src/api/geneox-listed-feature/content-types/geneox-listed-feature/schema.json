@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "geneox_listed_features",
+  "info": {
+    "singularName": "geneox-listed-feature",
+    "pluralName": "geneox-listed-features",
+    "displayName": "geneox-listed-feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "main_feature_geneox": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::main-feature-geneox.main-feature-geneox",
+      "inversedBy": "geneox_listed_features"
+    }
+  }
+}

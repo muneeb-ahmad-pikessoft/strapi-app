@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "home-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "navbar": {
+      "displayName": "Navigation Bar",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.navigation-bar"
+    }
+  }
+}

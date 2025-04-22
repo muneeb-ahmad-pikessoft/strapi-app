@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "mainLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "linkIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

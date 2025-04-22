@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_banners",
+  "info": {
+    "singularName": "main-banner",
+    "pluralName": "main-banners",
+    "displayName": "main-banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "findLocationButtonTitle": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bannerVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "findLocationButtonLink": {
+      "type": "string"
+    },
+    "videoButtonTitle": {
+      "type": "string"
+    }
+  }
+}

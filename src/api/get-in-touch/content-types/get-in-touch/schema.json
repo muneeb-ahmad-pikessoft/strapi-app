@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_in_touches",
+  "info": {
+    "singularName": "get-in-touch",
+    "pluralName": "get-in-touches",
+    "displayName": "get-in-touch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

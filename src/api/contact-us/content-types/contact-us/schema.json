@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "contact-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contactUsImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

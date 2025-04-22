@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_navigation_bars",
+  "info": {
+    "displayName": "Navigation Bar",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "main_banner": {
+      "displayName": "Main Banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.main-banner"
+    }
+  }
+}

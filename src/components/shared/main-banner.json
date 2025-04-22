@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_main_banners",
+  "info": {
+    "displayName": "Main Banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "banner_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner_video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "find_location_button_title": {
+      "type": "string"
+    },
+    "find_location_button_link": {
+      "type": "string"
+    },
+    "video_button_title": {
+      "type": "string"
+    }
+  }
+}

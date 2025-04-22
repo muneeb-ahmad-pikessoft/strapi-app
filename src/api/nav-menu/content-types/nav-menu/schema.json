@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_menus",
+  "info": {
+    "singularName": "nav-menu",
+    "pluralName": "nav-menus",
+    "displayName": "nav-menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

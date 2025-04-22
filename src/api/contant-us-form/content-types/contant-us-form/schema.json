@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contant_us_forms",
+  "info": {
+    "singularName": "contant-us-form",
+    "pluralName": "contant-us-forms",
+    "displayName": "contant-us-form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

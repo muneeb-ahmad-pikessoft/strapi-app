@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_feature_geneoxes",
+  "info": {
+    "singularName": "main-feature-geneox",
+    "pluralName": "main-feature-geneoxes",
+    "displayName": "main-feature-geneox",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "geneox_listed_features": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::geneox-listed-feature.geneox-listed-feature",
+      "mappedBy": "main_feature_geneox"
+    }
+  }
+}

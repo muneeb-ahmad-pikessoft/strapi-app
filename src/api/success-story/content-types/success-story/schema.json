@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "success_stories",
+  "info": {
+    "singularName": "success-story",
+    "pluralName": "success-stories",
+    "displayName": "success-story",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "buttonlink": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "buttontext": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "all_success_story": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::all-success-story.all-success-story"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_feature_homes",
+  "info": {
+    "singularName": "main-feature-home",
+    "pluralName": "main-feature-homes",
+    "displayName": "main-feature-home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

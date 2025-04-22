@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutUsVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
